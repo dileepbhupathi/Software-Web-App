@@ -1,0 +1,37 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+
+.list {
+    list-style: none;
+    padding-left: 0;
+    color: #dce8eb;
+    width: 100%;
+  }
+
+.footer-card{
+    border-color:   #777777;
+}
+
+
+  .footer {
+    background-color:#232323;
+    color: white;
+    line-height: 2.75em;
+  }
+
+.list1:hover{
+    text-decoration: underline;
+}
+
+.social-icons-containers{
+    width: 18%;
+    height: auto;
+    color: grey;
+    border-color: grey;
+}
+
+.contact-us-btn{
+    width: 75%;
+    height: auto;
+}
+  

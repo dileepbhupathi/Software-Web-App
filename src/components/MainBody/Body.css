@@ -1,0 +1,338 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+.Body-container {
+    background-color: #efefef;
+    background-size: cover;
+}
+
+.body-top-container {
+    background-image: url('https://d259t2jj6zp7qm.cloudfront.net/images/c_scale%2Cq_auto%3Abest%2Cw_350-Woman_Looking_at_Map_ybf4o0.jpg');
+    width: 100%;
+    height: 85vh;
+    background-size: cover;
+    color: black;
+}
+
+.body-top-container-button {
+    background-color: #f7d9c4;
+    border-color: #f7d9c4;
+}
+
+.body-top-container-button:hover {
+    background-color: white;
+    border-color: white;
+}
+
+.free-consulation-container {
+    height: auto;
+}
+
+.card {
+    height: auto;
+}
+
+.wrapper {
+    height: 100%;
+    width: 50%;
+    line-height: 2.5em;
+}
+
+.body-features-image {
+    width: 35%;
+    position: absolute;
+    top: 98%;
+    z-index: 1;
+}
+
+.body-card-header-caption {
+    color: grey;
+    font-size: 1em;
+}
+
+.body-card-header {
+    font-weight: 600;
+    font-size: 3.5em;
+}
+
+.body-card-description {
+    font-size: 1.5em;
+    color: #464646;
+    font-weight: 400;
+}
+
+.body-card-list {
+    list-style: none;
+}
+
+.body-card-list::before {
+    position: absolute;
+    left: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    width: -0.5%;
+    content: "✓";
+    border-radius: 50%;
+}
+
+.body-card-button {
+    font-size: 1.25em;
+    background-color: #e0eef1;
+    color: #464646;
+}
+
+.body-card-button:hover {
+    color: white;
+    background-color: black;
+}
+
+.body-price-plan-card {
+    background-color: #efefef;
+}
+
+.body-price-plan-container {
+    background-color: white;
+}
+
+.body-card-warapper-container {
+    line-height: 2.5em;    
+}
+
+.body-price-plan-card-list {
+    list-style: none;
+}
+
+.body-price-plan-card-list::before {
+    position: absolute;
+    left: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    background-color: #efefef;
+    width: -0.5%;
+    content: "✓";
+    border-radius: 50%;
+}
+
+.body-price-plan-card-list1::before {
+    background-color: transparent;
+    color: white;
+}
+.body-price-plan-card-button {
+    background-color: #e0eef1;
+    color: grey;
+    font-size: 1.25em;
+    font-weight: 500;
+}
+
+.body-price-plan-card-button:hover {
+    background-color: #bfdae0;
+    color: white;
+    border-color: #bfdae0;
+}
+
+.body-price-plan-card1 {
+    background-image: linear-gradient(to bottom right, #2921cc, #ff8484);
+    color: white;
+}
+
+.body-price-plan-card-button1 {
+    background-color: white;
+    color: grey;
+    
+}
+
+.body-price-plan-card-button1:hover {
+    background-color: #efefef;
+    color: #464646;
+}
+
+.arrow-up-icon {
+    font-size: 2.5em;
+}
+
+.arrow-up-icon-container {
+    background-color: #ff8484;
+    border-radius: 50%;
+    min-width: 22%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.percentage-card {
+    background-color: transparent;
+    border: 0;
+}
+
+.percentage-header {
+    font-size: 3.5em;
+}
+
+.review-description {
+    color: grey;
+    font-size: 1em;
+}
+
+.percentage-continer {
+    background-color: #bfdae0;
+}
+
+.accordion-button {
+    background-color: transparent;
+    margin-bottom: 0;
+    border: 0;
+}
+
+.faq-accordion-container {
+    line-height: 2.5em;
+}
+
+.mobile-app-integration-container {
+    background-color: white;
+}
+
+.palette-icon {
+    font-size: 3em;
+}
+
+.icon-container {
+    background-color: #bfdae0;
+    border-radius: 50%;
+    width: 40%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-app-integration-card {
+    height: auto;
+    border: 2px solid #bfdae0;
+}
+
+.mobile-app-integration-card:hover .icon-container{
+    background-color: #f8bfbf;
+}
+
+.mobile-app-integration-card:hover {
+    border-color: transparent;
+}
+
+.read-more-caption {
+    text-decoration: underline;
+    font-weight: 400;
+    font-size: 1.25em;
+}
+
+.read-more-caption:hover {
+    color: grey;
+}
+
+.our-team-memebers-header{
+    font-size: 3.5em;
+}
+
+.our-team-members-card {
+    background-color: white;
+}
+
+.social-network-icon-container {
+    background-color: #efefef;
+    width: 2.5em;
+}
+
+.social-network-icon {
+    font-size: 1.75em;
+}
+
+.about-container {
+    background-color: white;
+}
+
+progress {
+    height: 4vh;
+}
+
+.image-feature {
+    height: 50vh;
+  }
+
+.image-container {
+    background-color: white;
+  }
+
+  .clients-container {
+    background-color: #14191e;
+  }
+
+  .client-text {
+    color: white;
+    font-size: 3em;
+  }
+
+  .client-images-container{
+    width: 100%;
+  }
+
+  .client-images-container::before{
+    width: 80%;
+    height: auto;
+    content: '';
+    position: absolute;
+    left: 9%;
+    bottom: -887%;
+    background: #31363b;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+  }
+
+  .update-section{
+    background-color:#e0eef1;
+  }
+
+  .update-image {
+    height: auto;
+  }
+
+  .update-button {
+    background-color: #14191e;
+    color: white;
+  }
+
+  .update-button:hover {
+    background-color: #f8bfbf;
+    color: black;
+  }
+
+  .client-feedback-card{
+    overflow: hidden;
+    
+  }
+
+  .feedback-images {
+    position: absolute;
+    bottom: -5%;
+    right: -13%;
+  }
+
+  .quote-icon {
+    font-size: 3.5em;
+    transform: rotate(180deg);
+  }
+
+  .feedback-description {
+    color: grey;
+    font-size: 1.25em;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 7vh;
+  }
+
+  
+
+  
